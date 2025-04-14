@@ -51,4 +51,12 @@
       inset 0px 35px 30px #000;
     margin-top: 3px;
   }
+
+
+  .ctm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
   
