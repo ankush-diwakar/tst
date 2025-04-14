@@ -1,12 +1,10 @@
-import React from 'react'
 import './Button.css'
-
 interface ButtonProps {
   title: string;
 }
 const Button = ( props:ButtonProps) => {
   return (
-    <div className="outer-cont flex">
+    <div className="outer-cont flex ctm"> 
     <svg
       viewBox="0 0 24 24"
       height="24"
@@ -25,7 +23,6 @@ const Button = ( props:ButtonProps) => {
     </svg>
     {props.title}
   </div>
-  
   )
 }
 

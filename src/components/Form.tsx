@@ -1,3 +1,4 @@
+import Button from './Button'
 import './Form.css'
 const Form = () => {
   return (
@@ -48,7 +49,7 @@ const Form = () => {
                 </div>
                 <span className="span">Forgot password?</span>
             </div>
-            <button className="button-submit">Sign In</button>
+            <Button  title={"Sign In"} />
             <p className="p">Don't have an account? <span className="span">Sign Up</span></p>
             <p className="p line">Or With</p>
 
